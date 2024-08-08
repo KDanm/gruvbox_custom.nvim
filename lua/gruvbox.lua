@@ -71,16 +71,14 @@ Gruvbox.config = {
 -- main gruvbox color palette
 ---@class GruvboxPalette
 Gruvbox.palette = {
-  dark0_hard = "#1d2021",
-  dark0 = "#282828",
-  dark0_soft = "#32302f",
-  dark1 = "#3c3836",
+  dark0_hard = "#272117",
+  dark0 = "#231E12",
+  dark1 = "#312A1B",
   dark2 = "#504945",
   dark3 = "#665c54",
   dark4 = "#7c6f64",
   light0_hard = "#f9f5d7",
   light0 = "#fbf1c7",
-  light0_soft = "#f2e5bc",
   light1 = "#ebdbb2",
   light2 = "#d5c4a1",
   light3 = "#bdae93",
@@ -88,7 +86,7 @@ Gruvbox.palette = {
   bright_red = "#fb4934",
   bright_green = "#b8bb26",
   bright_yellow = "#fabd2f",
-  bright_blue = "#83a598",
+  bright_blue = "#235BCB",  -- Modified to match the Obsidian theme
   bright_purple = "#d3869b",
   bright_aqua = "#8ec07c",
   bright_orange = "#fe8019",
@@ -106,26 +104,10 @@ Gruvbox.palette = {
   faded_purple = "#8f3f71",
   faded_aqua = "#427b58",
   faded_orange = "#af3a03",
-  dark_red_hard = "#792329",
-  dark_red = "#722529",
-  dark_red_soft = "#7b2c2f",
-  light_red_hard = "#fc9690",
-  light_red = "#fc9487",
-  light_red_soft = "#f78b7f",
-  dark_green_hard = "#5a633a",
-  dark_green = "#62693e",
-  dark_green_soft = "#686d43",
-  light_green_hard = "#d3d6a5",
-  light_green = "#d5d39b",
-  light_green_soft = "#cecb94",
-  dark_aqua_hard = "#3e4934",
-  dark_aqua = "#49503b",
-  dark_aqua_soft = "#525742",
-  light_aqua_hard = "#e6e9c1",
-  light_aqua = "#e8e5b5",
-  light_aqua_soft = "#e1dbac",
   gray = "#928374",
+  accent = "#3C5274",  -- Added from the Obsidian theme
 }
+
 
 -- get a hex list of gruvbox colors based on current bg and constrast config
 local function get_colors()
